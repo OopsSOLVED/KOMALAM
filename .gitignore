@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# KOMALAM runtime data (user-specific)
+data/komalam.db
+data/komalam.log
+data/faiss_index/
+ui/data/
+
+# Keep the data directory structure
+!data/.gitkeep

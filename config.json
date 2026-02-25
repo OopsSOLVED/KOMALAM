@@ -1,0 +1,10 @@
+{
+    "theme": "dark",
+    "model": "llama3.2",
+    "gpu_backend": "auto",
+    "temperature": 0.7,
+    "context_window": 4096,
+    "max_memory_results": 5,
+    "auto_prune_days": 0,
+    "system_prompt": "You are KOMALAM, a helpful and friendly local AI assistant. You remember past conversations and use them to provide personalized responses. Be concise, accurate, and helpful."
+}
